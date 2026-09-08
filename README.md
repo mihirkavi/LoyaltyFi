@@ -10,3 +10,11 @@ LoyaltyFi is a concept for a universal loyalty-point exchange that makes fragmen
 ## Status
 
 This repository contains early venture research and presentation materials rather than a software implementation.
+
+## View the materials
+
+Browse the repository files and open documents, spreadsheets, presentations, or PDFs in a compatible viewer. This archive has no software installation or application build step.
+
+## License
+
+No license file is included in this repository. This README grants no additional reuse or redistribution permissions; contact the repository owner about permitted use.
