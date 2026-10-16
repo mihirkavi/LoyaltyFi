@@ -8,6 +8,9 @@ LoyaltyFi is a concept for a universal loyalty-point exchange that makes fragmen
 
 - `LoyaltyFi_ The Universal Loyalty Point Exchange.pptx` presents the venture concept.
 - `Business Model Canvas.docx` captures the initial business model and stakeholder assumptions.
+- `LoyaltyFi_Legal_Disclaimer.pdf` and `LoyaltyFi_Tax_Policy_Explainer.pdf` are draft policy documents for the concept.
+- `Onboarding.png` diagrams a proposed partner-program onboarding flow; `UI Mobile User.png` mocks up the mobile app screens (points overview, wallet, point swap, and spend).
+- `Interoperable Loyalty Ecosystem – Value Flywheel.png` illustrates the proposed ecosystem value flywheel.
 
 ## Status
 
