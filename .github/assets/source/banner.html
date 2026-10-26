@@ -1,0 +1,43 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- LoyaltyFi README banner. Colors sampled from assets/brand/logo.png (aubergine, coral, peach)
+     and the navy buttons in "UI Mobile User.png". -->
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Inter:wght@400;500;600&display=block" rel="stylesheet">
+<style>
+:root{--bg:#fff7f0;--ink:#0e1d2d;--muted:#5d5566;--plum:#4f194d;--coral:#fb5b4d;--peach:#fddbbd;--card:#ffffff;--line:#f0dccb;--chip:#fbe7d6;--blob:#fddbbd;--tile:transparent}
+@media (prefers-color-scheme:dark){:root{--bg:#1c0b1f;--ink:#fff3ea;--muted:#d6bfcf;--plum:#d9a6d3;--coral:#ff7466;--peach:#fddbbd;--card:#2b1430;--line:#43233f;--chip:#3a1c3a;--blob:#5a1f4a;--tile:#fff3ea}}
+*{margin:0;box-sizing:border-box}
+body{width:1600px;height:600px;overflow:hidden;background:var(--bg);font-family:Inter,sans-serif;color:var(--ink);position:relative}
+.blob{position:absolute;border-radius:50%;filter:blur(2px)}
+.left{position:absolute;left:100px;top:84px;width:780px}
+.brand{display:flex;align-items:center;gap:14px;font:800 30px "Plus Jakarta Sans";letter-spacing:-.6px}
+.brand img{width:52px;height:52px;padding:4px;border-radius:14px;background:var(--tile)}
+.pill{display:inline-block;margin-top:34px;padding:8px 16px;border-radius:999px;background:var(--chip);font:600 15px Inter;color:var(--plum);letter-spacing:.3px}
+h1{margin-top:20px;font:800 80px/1.0 "Plus Jakarta Sans";letter-spacing:-3px}
+h1 em{font-style:normal;color:var(--coral)}
+p{margin-top:24px;font:400 23px/1.45 Inter;color:var(--muted);width:660px}
+.stage{position:absolute;right:90px;top:70px;width:620px;height:460px}
+.card{position:absolute;width:330px;height:200px;border-radius:24px;padding:26px 28px;color:#fff;box-shadow:0 24px 50px rgba(79,25,77,.25)}
+.card .k{font:600 14px Inter;letter-spacing:2px;text-transform:uppercase;opacity:.8}
+.card .n{margin-top:12px;font:800 34px "Plus Jakarta Sans";letter-spacing:-1px}
+.card .d{position:absolute;left:28px;bottom:24px;font:500 15px Inter;opacity:.85}
+.card .dots{position:absolute;right:26px;top:26px;display:flex;gap:6px}
+.card .dots i{width:10px;height:10px;border-radius:50%;background:currentColor;opacity:.5}
+.swap{position:absolute;left:120px;top:282px;width:120px;height:120px;border-radius:50%;background:var(--card);border:2px solid var(--line);display:grid;place-items:center;box-shadow:0 12px 30px rgba(0,0,0,.12)}
+</style></head><body>
+<div class="blob" style="width:520px;height:520px;right:-120px;top:-160px;background:var(--blob);opacity:.45"></div>
+<div class="left">
+ <div class="brand"><img src="../../../assets/brand/logo.png" alt="">LoyaltyFi</div>
+ <div class="pill">Venture concept · no app yet</div>
+ <h1>Your points,<br><em>finally portable.</em></h1>
+ <p>One wallet that values every loyalty balance in dollars, and an exchange to swap points between brands.</p>
+</div>
+<div class="stage">
+ <div class="card" style="left:0;top:20px;background:var(--plum);transform:rotate(-6deg);color:#fff">
+    <div class="dots"><i></i><i></i></div><div class="k">Airline miles</div><div class="n">Travel</div><div class="d">Program A · your balance</div></div>
+ <div class="card" style="left:270px;top:230px;background:#fb5b4d;transform:rotate(5deg)">
+  <div class="dots"><i></i><i></i></div><div class="k">Coffee stars</div><div class="n">Everyday</div><div class="d">Program B · new value</div></div>
+ <div class="swap"><svg width="58" height="58" viewBox="0 0 24 24" fill="none" stroke="#0e1d2d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="sw"><path d="M4 8h14l-4-4"/><path d="M20 16H6l4 4"/></svg></div>
+</div>
+<style>@media (prefers-color-scheme:dark){.stage .card:first-child{background:#6a2366!important}.sw{stroke:#fff3ea}}</style>
+</body></html>
