@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.png">
-    <img alt="LoyaltyFi: your points, finally portable. A concept for one wallet and exchange that lets loyalty points move between brands." src=".github/assets/banner-light.png" width="100%">
+    <img alt="LoyaltyFi: your points, finally portable. A venture concept for one wallet and exchange that lets loyalty points move between brands, shown as two loyalty cards with a swap button." src=".github/assets/banner-light.png" width="100%">
   </picture>
 </p>
 
@@ -18,10 +18,10 @@
 </p>
 
 <p align="center">
-  <img alt="Stage: venture concept" src="https://img.shields.io/badge/stage-venture%20concept-6b6b6b?style=flat-square">
-  <img alt="Software: none yet" src="https://img.shields.io/badge/software-none%20yet-6b6b6b?style=flat-square">
-  <img alt="Contents: pitch and research" src="https://img.shields.io/badge/pitch%20%C2%B7%20model%20%C2%B7%20policy-111111?style=flat-square">
-  <img alt="License: none" src="https://img.shields.io/badge/license-none-111111?style=flat-square">
+  <img alt="Stage: venture concept" src="https://img.shields.io/badge/stage-venture%20concept-4f194d?style=flat-square">
+  <img alt="Software: none yet" src="https://img.shields.io/badge/software-none%20yet-fb5b4d?style=flat-square">
+  <img alt="Contents: pitch and research" src="https://img.shields.io/badge/pitch%20%C2%B7%20model%20%C2%B7%20policy-0e1d2d?style=flat-square">
+  <img alt="License: none" src="https://img.shields.io/badge/license-none-0e1d2d?style=flat-square">
 </p>
 
 <p align="center">
